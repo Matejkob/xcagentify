@@ -1,0 +1,6 @@
+Command line invocation:
+    /Applications/Xcode_16.4.app/Contents/Developer/usr/bin/xcodebuild -project swift_ios_compile_errors.xcodeproj -scheme swift_ios_compile_errors -destination "platform=iOS Simulator,name=iPhone 16" clean build
+
+2025-08-18 21:09:52.482 xcodebuild[3253:104679]  DVTDeviceOperation: Encountered a build number "" that is incompatible with DVTBuildVersion.
+2025-08-18 21:09:52.492 xcodebuild[3253:104662] Writing error result bundle to /var/folders/lj/1_d6kbt94zb2wb7dtqvnl4kr0000gn/T/ResultBundle_2025-18-08_21-09-0052.xcresult
+xcodebuild: error: 'swift_ios_compile_errors.xcodeproj' does not exist.
